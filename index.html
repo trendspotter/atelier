@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Ateliér map 4.0</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <script type="module" crossorigin src="./assets/index-CGDErzBU.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BlTk_lXh.css">
+</head>
+<body>
+  <div id="app"></div>
+  <noscript><p style="font:16px system-ui;margin:12vh auto;max-width:520px">Aplikace Ateliér map vyžaduje zapnutý JavaScript.</p></noscript>
+  <script>
+    /* Při otevření přímo ze souboru (file://) prohlížeč zablokuje moduly i Web Workery – stránka by zůstala prázdná. Proto vysvětlení česky hned zde. */
+    if (location.protocol === 'file:') {
+      document.getElementById('app').innerHTML = '<div style="font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:12vh auto;padding:24px">' +
+        '<h2 style="margin-top:0">Aplikaci je potřeba spustit z webového serveru</h2>' +
+        '<p>Otevřeli jste ji přímo ze souboru (file://). Prohlížeč v takovém případě zakazuje Web Workery i ukládání dat, a mapa se proto nemůže vykreslit.</p>' +
+        '<p>Nahrajte celou složku <b>dist</b> na webový hosting (adresa začínající https://) a otevřete ji odtud.</p></div>';
+    }
+  </script>
+</body>
+</html>

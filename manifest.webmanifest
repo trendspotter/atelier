@@ -1,0 +1,10 @@
+{
+  "name": "Ateliér map 4.0",
+  "short_name": "Ateliér map",
+  "lang": "cs",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#1d2326",
+  "theme_color": "#2f5d62",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
